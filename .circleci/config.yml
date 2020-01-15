@@ -8,7 +8,7 @@ jobs:
     docker:
       # Specify the version you desire here
       - image: circleci/php:7.1-node-browsers
-
+      - run: apt install lynx
     steps:
       - checkout
-      - run: links http://terceiro.com.br/andre.php
+      - run: lynx http://terceiro.com.br/andre.php
