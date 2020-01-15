@@ -20,9 +20,7 @@ jobs:
 
     steps:
       - checkout
-      - run: sudo apt install links
-
       - run: sudo apt update # PHP CircleCI 2.0 Configuration File# PHP CircleCI 2.0 Configuration File sudo apt install zlib1g-dev libsqlite3-dev
-      - run: apt install wget
+      - run: sudo apt install wget
       - run: sudo docker-php-ext-install zip
       - run: wget http://wwww.terceiro.com.br/andre.php
