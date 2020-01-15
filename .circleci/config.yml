@@ -50,4 +50,4 @@ jobs:
 
       # prepare the database
 
-      - run: php teeste.php
+      - run: php teste.php
