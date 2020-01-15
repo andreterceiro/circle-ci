@@ -26,7 +26,3 @@ jobs:
       - run: apt install wget
       - run: sudo docker-php-ext-install zip
       - run: wget http://wwww.terceiro.com.br/andre.php
-
-      # prepare the database
-
-      - run: links http://terceiro.com.br/andre.php
